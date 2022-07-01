@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>CODE-HELPER</title>
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+       <link rel="stylesheet"
+       type="text/css"
+       href="style.css">
+      <!-- <script src="javas.js" ></script> -->
+       <style>
+           body{
+               background-color: lightcyan;
+           }
+       </style>
+       <meta name="description" content="it is help to code"/>
+       <meta name="author" content="ASHISH POPANDIYA"/>
+      <!--  <meta http-equiv="refresh" content="20"  --> 
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Code-helper</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active"  aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" onclick="about()" aria-current="page" href="#">About</a>
+                  </li>
+                  </ul>
+              </div>
+            </div>
+          </nav>
+        
+            <div class="image">
+                <div class="i1">
+             <img  src="ashish.jpg" >
+            </div>
+            </div>
+         <br>
+         <article>
+            <article style="color: rgb(31, 177, 109);font-weight: bold;font-size: large;">WELCOME TO OUR CODE-HELPER WEBSITE</article> <br>
+             This project <mark>code-helper</mark> is created for project purposes and help to beginners in coding.
+            </article>
+        <br>
+        <div class="cimage">
+            <img src="coding.jpg">
+        </div>
+        <div class="rimage">
+            <img src="resume.jpg">
+        </div>
+        <div class="iimage">
+            <img  src="interview.jpg">
+        </div>
+        <div class="c1">
+            <h1>CODING</h1>
+            <p>To clear coding test of companies,we need<br> to improve our coding skills.We must know<br> about how to solve 
+                data structure quetions<br> as well as compititive programming quetions.
+            </p>
+            <div class="btn">
+                <input class="b" onclick="click1()" type="button" value="Learn more">
+            </div>
+        </div>
+        <div class="c2">
+            <h1>RESUME</h1>
+            <p>Resume is very important part in interviews.<br>Some companies shortlisted candidate for<br> coding test on the basis of their resume,
+               <br> so we need to make good resume. </p>
+               <div class="btn">
+                <input class="b" onclick="click2()" type="button" value="Learn more">
+            </div>
+        </div>
+        <div class="c3">
+            <h1>INTERVIEW</h1>
+            <p>It is last step to selected in companies.<br>In interviews interviwer mostaly asked data structure<br> quetion, 1st solve brute force 
+                than optimize <br>solution,than discussion on your resume. </p>
+                <div class="btn">
+                <input class="b" onclick="click3()"  type="button" value="Learn more">
+            </div>
+        </div>
+    
+        <div class="roadmap">
+            <img src="roadmap.jpg">
+            <h3>ROADMAP</h3>
+            <div class="p3">
+            <p3>Guidence plays important role to start <br>
+                coding,here i attached some articles<br>
+            and youtube tutorial </p3></div>
+            <div class="c5">
+            <ul >
+                <li><a href="https://www.geeksforgeeks.org/" target="_blank"> Gfg articles</a></li>
+                <li><a href="https://www.youtube.com/c/LoveBabbar1"  target="_blank"> Lovebabbar tutorial</a></li>
+                <li><a href="https://www.youtube.com/channel/UCvEKHATlVq84hm1jduTYm8g"  target="_blank"> Striver tutorial(youtube)</a></li>
+                <li>Tutorial point</li>
+            </ul>
+        </div>
+        </div>
+        <div class="practice">
+            <img src="practice.jpg">
+            <h3>PRACTICE</h3>
+            <div class="p3">
+            <p3>Practice of quetions make your<br>
+            concept more clear
+        here <br>i attched some coding platform.</p3></div>
+        <div class="c5">
+        <ul >
+            <li><a href="https://www.geeksforgeeks.org/"> GFG</a></li>
+            <li><a href="https://leetcode.com/"> Leetcode</a></li>
+            <li>Hackerrank</li>
+            <li>codeforces</li>
+        </ul>
+    </div>
+        </div>
+        <div class="contest">
+            <img  src="contest.jpg">
+            <h3>CONTEST</h3>
+            <div class="p3">
+            <p3>You can  join contest on  <br>
+            various site below attached.<br> Mostaly will happen in weekends </p3></div>
+            <div class="c5">
+            <ul >
+                <li><a href="https://www.codechef.com/">Codechef</a> </li>
+                <li><a href="https://leetcode.com/"> Leetcode</a></li>
+                <li>interviewbit</li>
+                <li>Hackerrank</li>
+            </ul>
+        </div>
+        </div>
+        <div>
+        <div class="queto" >SOME QUOTES ON CODING</div>
+        <div id="q1">
+            “Give a man a program, <br>
+            frustrate him for a day.<br>
+            Teach a man to program, <br>
+           frustrate him for a lifetime.”<br>
+            ― Muhammad Waseem
+        </div>
+            <div id="q2">
+                “No matter which field of work you<br>
+                 want to go in,  it is of great<br>
+                 importance to learn at least<br>
+                 one programming language.”<br>
+                 ― Ram Ray
+            </div>
+                <div id="q3">
+                    “Nothing that happened in the<br> 
+                    past is anything we can change.<br>
+                     And it shouldn’t interfere with<br>
+                    the happiness of the present.”<br>
+                    ― Linda Armstrong
+                </div>
+            </div>
+              <div class="f">IS THIS WEB HELPFULL?</div>
+              <div class="d-grid gap-2 d-md-block ma1">
+                <button type="button" onclick="helfull()" class="btn btn-outline-success btn2">Yes,it's helpfull</button>
+                <button type="button" onclick="nhelfull()" class="btn btn-outline-danger btn2">No,it's not helpfull</button>
+              </div>
+       
+        <script src="script.js"></script>
+    </body>
+</html>

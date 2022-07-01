@@ -1,0 +1,167 @@
+header{
+    overflow: hidden;
+    background: rgb(182, 208, 230);
+}
+#top-header{
+    text-align: center;
+    height: 60px;
+}
+#project{
+    background: rgb(85, 92, 89);
+    float: left;
+    text-align: left;
+    color: rgb(230, 235, 240);
+    font-size: 200%;
+    font-weight: bold;
+    border-bottom: 2px solid skyblue;
+}
+#table{
+    float: right;
+    width: 70%;
+    height: 100%;
+    margin: none;
+}
+     
+#table ul{
+    text-align: center;
+    float: right;
+    margin: none;
+    background: #0074D9;
+}
+     
+#table li{
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+     
+#table li a, #table li span{
+    display: inline-block;
+    padding: 0em 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 60px;
+}
+     
+#table li a{
+         
+    color: #FFF;
+}
+     
+#table li:hover a, #table li span{
+    background: #FFF;
+    color: #0074D9;
+    border-left: 1px solid #0074D9;
+    text-decoration: none;
+}
+
+.image{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.f{
+    text-align: center;
+    color: rgb(117, 15, 235);
+    font-size: 150%;
+    font-weight: bold;
+    margin-top: 20%;
+}
+.ma1{
+    margin-top: 2%;
+}
+.btn2{
+    margin-bottom: 10%;
+   margin-left: 10%;
+    text-align: center;
+
+}
+ img {
+    width: 300px;
+    height: 300px;
+}
+article{
+    text-align: center;
+}
+.cimage,.rimage,.iimage{
+    
+    width: 33%;
+    float: left;
+}
+.c1,.c2,.c3{
+    width: 33%;
+    float: left;
+    
+
+}
+.btn{
+    width:33%;
+    float:left;
+}
+h1{
+    text-align: center;
+    color: rgb(119, 26, 240);
+}
+
+p{
+    text-align: center;
+}
+
+.b{
+    color: rgb(25, 25, 39);
+    background: rgb(141, 210, 238);
+    border-radius: 5px;
+}
+.roadmap,.practice,.contest{
+    width: 33%;
+    float: left;
+    margin-top: 5%;
+}
+h3{
+    text-align: center;
+    font-size: 130%;
+    color: blue;
+}
+.p3{
+    text-align: center;
+}
+.c5{
+    text-align: center;
+}
+.queto{
+    text-align: center;
+    color: rgb(117, 15, 235);
+    font-size: 150%;
+    font-weight: bold;
+    margin-top: 10%;
+}
+ul{
+    margin-bottom: 10%;
+}
+#q1,#q2,#q3{
+    border: 2px solid black;
+    width: 21%;
+    height: 200px;
+    margin-left: 12%;
+    display: block;
+    margin-top: 2%;
+    float: left;
+    text-align: center;
+    background-color: rgba(88, 230, 199, 0.226);
+}
+
+
+
+.email,.name,.mobile{
+    margin-top: 10%;
+    width:33%;
+    float: left;
+    background: cornsilk;
+}
+h2{
+    text-align: center;
+    font-size: 95%;
+}
+
+
